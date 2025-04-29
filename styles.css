@@ -73,6 +73,16 @@ body {
     margin-top: 0.75rem;
 }
 
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
 .boton {
     display: inline-block;
     background-color: #007bff;
