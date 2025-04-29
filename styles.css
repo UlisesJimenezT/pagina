@@ -45,10 +45,13 @@ body {
 }
 
 .card img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+    display: block;
 }
 
 .card h2 a {
@@ -86,16 +89,6 @@ body {
     background-color: #0056b3;
 }
 
-.icono {
-    width: 80%;
-    max-width: 400px;
-    margin: 20px auto;
-    display: block;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-
 .sitio {
     background-color: #ffffff;
     border-radius: 10px;
@@ -127,7 +120,8 @@ body {
     .card iframe {
         height: 200px;
     }
-    .icono {
-        width: 50%;
+
+    .card img {
+        max-width: 90%;
     }
 }
