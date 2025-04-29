@@ -127,4 +127,7 @@ body {
     .card iframe {
         height: 200px;
     }
+    .icono {
+        width: 50%;
+    }
 }
